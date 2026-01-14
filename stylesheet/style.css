@@ -135,7 +135,6 @@ nav ul li a{
     margin-top: 140px;
     margin-left: 100px;
     margin-right: 100px;
-    padding: 50px 0px;
 }
 .features-content{
     max-width: 586px;
@@ -177,6 +176,46 @@ nav ul li a{
 .text-experience{
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+
+/* //Dashboard Styles */
+#dashboard{
+    margin-left: 220px;
+    margin-right: 120px;
+    margin-top: 118px
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.dashboard-title{
+    font-size: 2.8rem;
+    font-weight: 700px;
+    margin-bottom: 24px;
+}
+.dashboard-description{
+    max-width: 542px;
+    margin-bottom: 80px;
+}
+.card{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    max-width: 241px;
+    padding: 45px 32px;
+    justify-content: center;
+    align-items: center;
+}
+.card-box{
+    text-align: center;
+}
+.total{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.card-content-tile{
+    font-size: 1.25rem;
+    font-weight: 600px;
 }
 /* Responsive for mobile */
 @media screen and (max-width:576px) {
