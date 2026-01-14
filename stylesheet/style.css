@@ -391,7 +391,8 @@ nav ul li a{
         font-size: 2rem;
     }
     .sponsors-container {
-        margin: 20px;
+        width: 100%;
+        margin: 0px;
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
         justify-items: center;
