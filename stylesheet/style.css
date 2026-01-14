@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* work-sans-font */
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+/* Shared selectors */
+.display-flex{
+    display: flex;
+}
+.color-bg{
+    background-color:#FFF4E7;
+}
+.light-gray{
+    color: #727272;
+}
+.btn-primary{
+    background-color: #FF900E;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.primary{
+    color: #FF900E;
+}
+.semiBold{
+    font-weight: 500;
+}
+
+/* Nav Styles */
+nav{
+    max-width: 1900px;
+    margin-left: 228px;
+    padding: 20px 10px 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    font-size: 3rem;
+    font-weight: 500;
+}
+nav ul{
+    margin-right: 240px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* Banner section styles */
+#banner{
+    margin: 0 auto;
+    padding: 10px 10px 40px 10px;
+}
+.banner-content{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 102px;
+}
+.banner-content h2{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.banner-content p{
+    font-size: 1rem;
+    margin-top: 32px;
+}
+.banner-img img{
+   width: 80%;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.banner-btn{
+    margin-top: 32px;
+}
+
+
+/* //Gallery Section styles */
+#gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+.image-container .image img{
+    width: 100%;
+    height: 300px;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.image-content{
+    width: 40%;
+}
+.image-content h2{
+    font-size: 2.8rem;
+    margin-bottom: 23px;
+}
+.image-content p{
+    margin-bottom: 32px;
+}
+/* Responsive for mobile */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        width: 90%;
+        margin-left: 10px;
+        padding: 30px 10px 20px 10px;
+    }
+    .nav-heading{
+        text-align: center;
+    }
+    nav ul{
+        margin-top: 20px;
+        margin-right: 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .banner-content{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .banner-content h2{
+        font-size: 3rem;
+    }
+    .banner-img img{
+        width: 90%;
+    }
+    #gallery {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px 10px 40px 10px;
+    }
+    .image-container .image img{
+        width: 100%;
+        height: 200px;
+    }
+    .image-container{
+        flex-wrap: wrap;
+          gap: 2%;
+    }
+    .image-content{
+        width: 100%;
+    }
+    .image-content h2{
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    .btn-primary {
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+}
