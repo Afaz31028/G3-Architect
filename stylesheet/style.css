@@ -374,6 +374,9 @@ nav ul li a{
         gap: 20px;
         justify-items: center;
     }
+    .card{
+        width: 100%;
+    }
     .dashboard-description{
         width: 100%;
         text-align: center;
@@ -388,8 +391,9 @@ nav ul li a{
         font-size: 2rem;
     }
     .sponsors-container {
+        margin: 20px;
         grid-template-columns: repeat(1, 1fr);
-        gap: 50px;
+        gap: 40px;
         justify-items: center;
     }
     .footer-content{
