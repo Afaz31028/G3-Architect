@@ -125,6 +125,59 @@ nav ul li a{
 .image-content p{
     margin-bottom: 32px;
 }
+
+/* //Features styles */
+#features{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    max-width: 1440px;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px 0px;
+}
+.features-content{
+    max-width: 586px;
+}
+.feature-description{
+    margin-bottom: 30px;
+}
+.features-card{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 25px 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.feature-heading-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding: 0px 20px;
+    margin-top: 39px;
+}
+.feature-card-title{
+    font-size: 1.25rem;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}
+.features-image{
+    max-width: 700px;
+}
+.btn-experince{
+    padding: 45px 42px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.btn-info{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.text-experience{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 /* Responsive for mobile */
 @media screen and (max-width:576px) {
     nav{
@@ -180,5 +233,39 @@ nav ul li a{
         font-size: 1rem;
         font-weight: 400;
     }
-    
+    #features{
+        flex-direction: column;
+        gap: 30px;
+        margin: 10px;
+    }
+    .features-content{
+        width: 90%;
+    }
+    .feature-heading-title{
+        font-size: 1.5rem;
+        font-weight: 500px;
+        margin-left: 20px;
+    }
+    .feature-description{
+        text-align: justify;
+        margin: 0 auto;
+        margin-bottom: 25px;
+
+    }
+    .features-card{
+        padding: 15px 20px;
+    }
+    .features-image img{
+        width: 100%;
+    }
+    .btn-experince{
+        margin: 10px;
+        padding: 10px 40px;
+    }
+    .btn-info{
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 10px 20px;
+        text-align: center;
+    }
 }
