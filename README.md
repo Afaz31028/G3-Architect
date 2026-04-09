@@ -43,7 +43,7 @@ Follow these simple steps to run the project on your local machine:
 1. **Clone the Repository**
 
    Open your terminal and run:
-   git clone https://github.com/your-username/g3-architect.git
+   https://github.com/Afaz31028/G3-Architect.git
 
 2. Or download the project as a ZIP file and extract it.
 
