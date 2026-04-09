@@ -1,18 +1,11 @@
 # G3 Architect - Modern Architecture Web App
 
-![G3 Architect Banner](https://via.placeholder.com/1200x600/1a1a1a/ffffff?text=G3+Architect)
-
 A sleek, modern, and fully responsive single-page website for an architecture firm built with pure **HTML5** and **CSS3**. Designed with elegance, minimalism, and professional aesthetics to showcase architectural excellence.
 
 ---
 
 ## ✨ Live Demo
 [View Live Demo](https://your-username.github.io/g3-architect) *(Replace with your actual GitHub Pages link)*
-
-## 🎨 Preview
-
-![Desktop Preview](https://via.placeholder.com/800x500/0f172a/64748b?text=Desktop+View)
-![Mobile Preview](https://via.placeholder.com/400x700/0f172a/64748b?text=Mobile+View)
 
 ---
 
@@ -43,6 +36,3 @@ A sleek, modern, and fully responsive single-page website for an architecture fi
 - **Font Awesome** – For icons (optional, CDN included)
 - **Responsive Units** – `rem`, `vw`, `vh`, media queries
 
----
-
-## 📁 Project Structure
