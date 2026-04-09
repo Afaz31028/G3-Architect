@@ -5,7 +5,7 @@ A sleek, modern, and fully responsive single-page website for an architecture fi
 ---
 
 ## ✨ Live Demo
-[View Live Demo](https://your-username.github.io/g3-architect) *(Replace with your actual GitHub Pages link)*
+[View Live Demo](https://afaz31028.github.io/G3-Architect/)
 
 ---
 
@@ -34,5 +34,19 @@ A sleek, modern, and fully responsive single-page website for an architecture fi
 - **CSS3** – Flexbox, Grid, Custom Properties, Animations, Transitions
 - **Google Fonts** – Inter + Playfair Display (or any elegant font pair)
 - **Font Awesome** – For icons (optional, CDN included)
-- **Responsive Units** – `rem`, `vw`, `vh`, media queries
+
+---
+
+## 🚀 How to Run Locally
+Follow these simple steps to run the project on your local machine:
+
+1. **Clone the Repository**
+
+   Open your terminal and run:
+   git clone https://github.com/your-username/g3-architect.git
+
+2. Or download the project as a ZIP file and extract it.
+
+----
+
 
